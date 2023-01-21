@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Cinzel Decorative', cursive;
+}
+#welcome-sec{
+   background-image:url(sav2.png) ; 
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding:20px;
+  
+}
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    color:orangered;
+    font-size: 60px;
+    margin-top: 30px;
+}
+header nav {
+    
+    display: flex;
+    gap: 40px;
+}
+header nav a{
+    font-size: large;
+    color:orangered;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+header nav a:hover{
+   color: rgb(246, 163, 46);
+   text-shadow: 3px 3px 30px gray;
+   transition: all 0.5s;
+    
+}
+
+section{
+    height: 100vh;
+    
+
+}
+.welcome-text{
+    color: rgb(246, 163, 46);
+    margin-left: 1000px;
+    margin-top: 80px;
+    width: 400px;
+   
+    
+}
+.welcome-text h1{
+    font-size: 40px;
+    text-align: center;
+}
+.welcome-text p {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* ! welcome end */
+
+/* ! ABOUT Start*/
+.row{
+    display: flex;
+    column-gap: 10px;
+   background-color: black;
+}
+.col{
+    flex-basis: 50%;
+}
+.about-text p{
+    margin-top: 80px;
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-text h1{
+    margin-top: 30px;
+    text-align: center;
+    color: orangered;
+}
+.about-text p1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: orangered;
+    line-height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-text span{
+    
+    color: rgb(246, 163, 46);
+    margin-left: 220px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   
+}
+.card{
+    width: 400px;
+    height: 530px;
+    margin-top: 80px;
+    display: inline-block;
+    background-image: url(mil2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: 1px solid red;
+}
+
+@media (max-width:1100px){
+    #about{
+        flex-direction: column;
+    }
+    .about-text h1{
+        font-size: 20px;
+    }
+}
+
+/* ! ABOUT end*/
+
+/* ! Battle Start*/
+#battle{
+    background-image:radial-gradient(circle,rgba(0, 0, 0, 0) 0%, black 60%), url(sav1.jpg);
+    background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: 1px solid black;
+  
+   
+  
+}
+.heading{color:orangered;}
+
+.heading h5{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    
+   
+    
+    
+}
+.heading h1{
+   
+    
+    font-size: 30px;
+    text-align: center; 
+    font-weight: 500px;
+}
+.boxes{
+   
+    width: 620px;
+    height: 500px;
+    background-color: #4843438d; 
+    margin: 70px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.box{
+    margin-top: 20px;
+    width: 300px;
+    height: 130px;
+   
+}
+.box:last-child{
+    width: 600px;
+}
+.boxes .box h1{
+    color: rgb(246, 163, 46);
+    text-align: center;
+   
+}
+.boxes .box p{
+    color:orangered;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ! Battle end*/
+
+/* ! opinion Start*/
+#opinions{
+ background-image:radial-gradient(circle,rgba(0, 0, 0, 0) 0%, black 60%),url(silk.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content: space-between;
+
+}
+.opinions-text{
+   
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.opinions-text p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:orangered;
+    text-align: center;
+}
+.opinions-text h1{
+    font-size: 75px;
+    color: rgb(246, 163, 46);
+}
+.opinions-text button {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 130px;
+    padding: 10px;
+    background-color: orangered;
+    font-weight: 800;
+    transition: color 0.4s, background-color 0.4s;
+    border-radius: 7px;
+}
+.opinions-text button:hover{
+    background-color:rgb(246, 163, 46);
+    transition: all 0.5s;
+}
+.opinions-cards{
+
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+         
+}
+.op-card{
+   
+    margin-top: 60px;
+    margin-right: 90px;
+    background-color: #4843438d;
+    border-radius: 10px;
+    width: 450px;
+    height: 160px;
+}
+
+
+
+.user{
+    
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.user h1{
+    color: rgb(246, 163, 46);
+}
+.user p{
+    color: orangered;
+}
+.comment p{
+    color: rgb(246, 163, 46);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.comment p1{
+    color: orangered;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
